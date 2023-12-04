@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 header {
+    position: sticky;
     display: flex;
     justify-content: space-around;
     align-items: center;

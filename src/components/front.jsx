@@ -3,7 +3,6 @@ import {Button} from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import {GitHub} from "@mui/icons-material";
 import '../styles/front.css'
-import IconButton from "@mui/material-next/IconButton";
 
 const front = () => {
     return (
