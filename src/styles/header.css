@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 18px;
+    font-family: Century, sans-serif;
+    cursor: pointer;
+}
+
+.header-right button {
+    margin-left: 10px;
+}
