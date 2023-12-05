@@ -28,7 +28,8 @@
     width: 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 24px;
+    border-radius: 20px;
+    background-size:cover ;
 }
 
 .project-image1 {
