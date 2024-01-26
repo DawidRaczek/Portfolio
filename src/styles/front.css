@@ -12,9 +12,6 @@ body {
     justify-content: center;
     height: calc(100vh - 60px);
     margin: 0;
-    background-image: url("../assets/4403214_18410.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .front-page a {
