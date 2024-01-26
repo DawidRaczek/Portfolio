@@ -15,7 +15,9 @@ const Header = () => {
             </div>
             <div className="header-right">
                 <Button onClick={() => navigate('/')}>Home</Button>
+                <a href='../assets/Dawid Rak CV PL.pdf' download>
                 <Button>Get my CV</Button>
+                </a>
                 <Button onClick={() => navigate('/projects')}>Projects</Button>
                 <Button onClick={() => navigate('/contact')}>Contact</Button>
             </div>
