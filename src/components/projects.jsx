@@ -12,10 +12,10 @@ const projects = () => {
                             Featuring modular components and responsive design, this project focuses on simplicity and user engagement. 
                             The clean code emphasizes maintainability and scalability, showcasing a commitment to modern web development.</p>
                     </div>
-                    <div className='project-image3'></div>
+                    <a href='https://i-automat.com/' target='blank' className='project-image3'></a>
                 </div>
                 <div className='project project1'>
-                    <div className='project-image1'></div>
+                    <a href='https://mnemonic-cards.web.app/' target='blank' className='project-image1'></a>
                     <div className='project-description'>
                         <h1 className='project-title'>Mnemonic flashcards</h1>
                         <p>A mnemonic learning app featuring flashcards.
