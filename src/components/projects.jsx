@@ -5,6 +5,15 @@ const projects = () => {
     return (
         <>
             <div className='project-page'>
+            <div className='project project3'>
+                    <div className='project-description'>
+                        <h1 className='project-title'>Client Page</h1>
+                        <p>Discover my recent project – a stylish website built with React and TypeScript.
+                            Featuring modular components and responsive design, this project focuses on simplicity and user engagement. 
+                            The clean code emphasizes maintainability and scalability, showcasing a commitment to modern web development.</p>
+                    </div>
+                    <div className='project-image3'></div>
+                </div>
                 <div className='project project1'>
                     <div className='project-image1'></div>
                     <div className='project-description'>

@@ -10,6 +10,7 @@ const Header = () => {
     return (
         <header>
             <div className="header-left">
+                <div className='picture'></div>
                 <h1>Dawid Rak</h1>
             </div>
             <div className="header-right">
