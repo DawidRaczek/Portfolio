@@ -32,7 +32,7 @@ const projects = () => {
                             As a bonus, users can conveniently check real-time stock prices by entering the stock symbol
                             or company name, making it a versatile tool for both travelers and investors.</p>
                     </div>
-                    <div className='project-image2'></div>
+                    <a href='https://exchangecalculator.web.app/index.html' target='blank' className='project-image2'></a>
                 </div>
             </div>
         </>

@@ -10,7 +10,7 @@ const Contact = () => {
 
     const copyEmailToClipboard = () => {
         const emailElement = document.createElement("textarea");
-        emailElement.value = "dawid.raczek6666@gmail.com";
+        emailElement.value = "dawidrak.contact@gmail.com";
         document.body.appendChild(emailElement);
 
         emailElement.select();
