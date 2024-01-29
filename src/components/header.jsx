@@ -3,7 +3,6 @@ import '../styles/header.css';
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
-import firebaseConfig from '../firebaseconfig';
 
 const Header = () => {
     const navigate = useNavigate();
@@ -27,6 +26,7 @@ const Header = () => {
             const link = document.createElement('a');
             link.href = cvDownloadUrl;
             link.download = 'Dawid_Rak_CV_PL.pdf'; 
+            link.target = '_blank';
             document.body.appendChild(link);
 
             link.click();
