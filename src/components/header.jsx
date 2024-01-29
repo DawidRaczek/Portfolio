@@ -3,6 +3,7 @@ import '../styles/header.css';
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
+import firebaseConfig from '../firebaseconfig.js';
 
 const Header = () => {
     const navigate = useNavigate();
