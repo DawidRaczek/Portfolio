@@ -12,7 +12,7 @@ const Header = () => {
     useEffect(() => {
         const storage = getStorage();
 
-        const cvRef = ref(storage, 'Dawid Rak CV PL.pdf'); 
+        const cvRef = ref(storage, 'Dawid Rak CV.pdf'); 
         getDownloadURL(cvRef)
             .then((url) => {
                 setCvDownloadUrl(url);
@@ -26,7 +26,7 @@ const Header = () => {
         if (cvDownloadUrl) {
             const link = document.createElement('a');
             link.href = cvDownloadUrl;
-            link.download = 'Dawid_Rak_CV_PL.pdf'; 
+            link.download = 'Dawid_Rak_CV.pdf'; 
             link.target = '_blank';
             document.body.appendChild(link);
 
