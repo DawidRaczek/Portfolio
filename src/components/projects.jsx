@@ -16,9 +16,8 @@ const Projects = () => {
       >
         <div className='project-page'>
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.9 }}
-            transition={{ stiffness: 400, damping: 17 }}
+             whileHover={{ scale: [null, 1.05, 1.04] }}
+             transition={{ duration: 0.3 }}
           >
             <div className='project project3'>
               <div className='project-description'>
@@ -41,9 +40,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.9 }}
-            transition={{ stiffness: 400, damping: 17 }}
+            whileHover={{ scale: [null, 1.05, 1.04] }}
+            transition={{ duration: 0.3 }}
           >
             <div className='project project1'>
               <a
@@ -66,9 +64,8 @@ const Projects = () => {
           </motion.div>
 
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.9 }}
-            transition={{ stiffness: 400, damping: 17 }}
+            whileHover={{ scale: [null, 1.05, 1.04] }}
+            transition={{ duration: 0.3 }}
           >
             <div className='project project2'>
               <div className='project-description'>
