@@ -3,6 +3,7 @@ import {GitHub} from "@mui/icons-material";
 import React from "react";
 
 const SideMenu = () => {
+    
     return (
         <div className='btnicons'>
             <button className='btn'>
